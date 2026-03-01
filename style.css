@@ -1,25 +1,65 @@
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(to right, #ffb6c1, #ff69b4);
     text-align: center;
-    background-color: #fffaf0;
-    color: #333;
+    padding: 15px;
 }
 
-h1 {
-    color: #8b0000;
-}
-
-img {
-    margin: 15px 0;
-    border-radius: 10px;
-}
-
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #8b0000;
-    color: white;
-    border: none;
+/* MENU */
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
     border-radius: 5px;
-    cursor: pointer;
+    transition: 0.3s;
+    color: black;
+}
+
+nav a:hover {
+    background-color: #ff1493;
+    color: white;
+}
+
+.active {
+    background-color: #c71585;
+    color: white;
+}
+
+/* LAYOUT */
+.container {
+    display: flex;
+}
+
+aside {
+    width: 25%;
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+
+main {
+    width: 75%;
+    padding: 20px;
+    transition: opacity 0.5s ease;
+}
+
+/* HIỆU ỨNG */
+.fade-out {
+    opacity: 0;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+/* FOOTER */
+footer {
+    background-color: #ddd;
+    text-align: center;
+    padding: 10px;
 }

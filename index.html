@@ -8,15 +8,44 @@
 <body>
 
     <h1>Hoa Sen Trong Phật Giáo</h1>
-    <img src="images/hoasen.jpg" alt="Hoa sen Phật giáo" width="320">
-    <p>
-        Tìm hiểu thêm:
-        <a href="https://vi.wikipedia.org/wiki/Hoa_sen_(Ph%E1%BA%ADt_gi%C3%A1o)"
-           target="_blank">
-           Ý nghĩa hoa sen trong Phật giáo
-        </a>
-    </p>
-    <button onclick="thongBao()">Click me</button>
-    <script src="script.js"></script>
+    <nav>
+        <a href="#" class="menu-item active" onclick="setActive(this); trangChu()">Trang chủ</a>
+        <a href="#" class="menu-item" onclick="setActive(this); moTa()">Mô tả</a>
+        <a href="#" class="menu-item" onclick="setActive(this); cacLoai()">Các loại</a>
+        <a href="#" class="menu-item" onclick="setActive(this); congDung()">Công dụng</a>
+        <a href="#" class="menu-item" onclick="setActive(this); yNghia()">Ý nghĩa trong Phật giáo</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <!-- PHẦN B: SIDEBAR -->
+    <aside>
+        <h3>Giới thiệu</h3>
+        <p>Hoa sen là quốc hoa của Việt Nam.</p>
+        <p>Biểu tượng của sự thanh cao và tinh khiết.</p>
+        <p>Xuất hiện nhiều trong kiến trúc và văn hóa Phật giáo.</p>
+    </aside>
+
+    <!-- PHẦN C: CONTENT -->
+    <main id="content" class="fade-in">
+        <h2>Trang Chủ</h2>
+        <p>Hoa sen là loài hoa đặc biệt, mọc trong bùn nhưng vẫn giữ được vẻ đẹp tinh khiết.</p>
+       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Lotus_flower_%28978659%29.jpg/1280px-Lotus_flower_%28978659%29.jpg" 
+     alt="Hoa sen" 
+     width="400">
+    </main>
+
+</div>
+
+<!-- PHẦN D: FOOTER -->
+<footer>
+    <p>Sinh viên thực hiện: Thạch Hoàng Sa</p>
+    <p>MSSV: 110124252</p>
+    <p>Lớp: DA24TTC</p>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
