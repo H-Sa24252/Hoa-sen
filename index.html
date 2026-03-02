@@ -2,43 +2,33 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Hoa Sen Trong Phật Giáo</title>
+    <title>Web Hoa Sen</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Hoa Sen Trong Phật Giáo</h1>
-    <nav>
-        <a href="#" class="menu-item active" onclick="setActive(this); trangChu()">Trang chủ</a>
-        <a href="#" class="menu-item" onclick="setActive(this); moTa()">Mô tả</a>
-        <a href="#" class="menu-item" onclick="setActive(this); cacLoai()">Các loại</a>
-        <a href="#" class="menu-item" onclick="setActive(this); congDung()">Công dụng</a>
-        <a href="#" class="menu-item" onclick="setActive(this); yNghia()">Ý nghĩa trong Phật giáo</a>
-    </nav>
+<header>
+    <h1>Hoa Sen</h1>
 </header>
 
 <div class="container">
 
-    <!-- PHẦN B: SIDEBAR -->
-    <aside>
-        <h3>Giới thiệu</h3>
-        <p>Hoa sen là quốc hoa của Việt Nam.</p>
-        <p>Biểu tượng của sự thanh cao và tinh khiết.</p>
-        <p>Xuất hiện nhiều trong kiến trúc và văn hóa Phật giáo.</p>
-    </aside>
+    <!-- MENU BÊN TRÁI -->
+    <nav class="sidebar">
+        <a href="#" class="menu-item active" onclick="setActive(this); trangChu()">Trang chủ</a>
+        <a href="#" class="menu-item" onclick="setActive(this); moTa()">Mô tả về hoa sen</a>
+        <a href="#" class="menu-item" onclick="setActive(this); cacLoai()">Các loại hoa sen</a>
+        <a href="#" class="menu-item" onclick="setActive(this); congDung()">Công dụng của hoa sen</a>
+        <a href="#" class="menu-item" onclick="setActive(this); yNghia()">Ý nghĩa của hoa sen trong Phật giáo</a>
+    </nav>
 
-    <!-- PHẦN C: CONTENT -->
-    <main id="content" class="fade-in">
-        <h2>Trang Chủ</h2>
-        <p>Hoa sen là loài hoa đặc biệt, mọc trong bùn nhưng vẫn giữ được vẻ đẹp tinh khiết.</p>
-       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Lotus_flower_%28978659%29.jpg/1280px-Lotus_flower_%28978659%29.jpg" 
-     alt="Hoa sen" 
-     width="400">
+    <!-- NỘI DUNG BÊN PHẢI -->
+    <main id="content" class="content fade-in">
+       
     </main>
 
 </div>
 
-<!-- PHẦN D: FOOTER -->
 <footer>
     <p>Sinh viên thực hiện: Thạch Hoàng Sa</p>
     <p>MSSV: 110124252</p>
@@ -46,6 +36,5 @@
 </footer>
 
 <script src="script.js"></script>
-
 </body>
 </html>

@@ -21,7 +21,8 @@ function chuyenNoiDung(noidung) {
 function trangChu() {
     chuyenNoiDung(
         `<h2>Trang Chủ</h2>
-        <p>Hoa sen là biểu tượng của sự tinh khiết và ý chí vươn lên.</p>
+        <p>Hoa sen là loài hoa nổi tiếng trong văn hóa Việt Nam, được coi là biểu tượng của tinh thần thanh cao, trong sáng và kiên cường. Dù mọc lên từ bùn lầy, hoa sen vẫn giữ được vẻ đẹp tươi sáng và thơm tho, gợi lên hình ảnh của tâm hồn thuần khiết vượt khó khăn.
+Trong Phật giáo, hoa sen còn mang ý nghĩa sâu sắc về sự giác ngộ, trí tuệ và giải thoát, thể hiện qua tư thế Đức Phật ngồi trên tòa sen trong nhiều tác phẩm nghệ thuật.</p>
        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Lotus_flower_%28978659%29.jpg/1280px-Lotus_flower_%28978659%29.jpg" 
      alt="Hoa sen" 
      width="400">`
@@ -32,24 +33,45 @@ function trangChu() {
 function moTa() {
     chuyenNoiDung(
         `<h2>Mô tả về hoa sen</h2>
-        <p>Hoa sen là thực vật sống dưới nước, thường mọc ở ao hồ.</p>
-        <p>Lá to hình tròn, hoa nhiều cánh và có hương thơm nhẹ.</p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Lotus_flower.jpg" width="300">`
+        <p>Hoa sen (tên khoa học Nelumbo nucifera) là một loài thực vật thủy sinh thường sống ở ao hồ và đầm lầy.
+           Đặc điểm chính:
+           Hoa nhiều cánh, hương thơm nhẹ kéo dài.
+           Lá to, tròn, có khả năng đẩy nước khỏi bề mặt nhờ cấu trúc đặc biệt.
+           Màu sắc: sen hồng, sen trắng, sen vàng…
+           Sen không chỉ là loài cây đẹp mà còn gắn bó mật thiết với đời sống con người Việt Nam từ xưa đến nay.</p>
+        <img src="https://cdnnews.mogi.vn/news/wp-content/uploads/2023/02/12215512/y-nghia-cua-hoa-sen-1.jpg" width="300">`
     );
 }
 
 /* 3. Các loại */
 function cacLoai() {
-    chuyenNoiDung(
-        `<h2>Các loại hoa sen</h2>
-        <h3>Sen hồng</h3>
-        <p>Loại phổ biến nhất, gắn liền với hình ảnh Đức Phật.</p>
-        <h3>Sen trắng</h3>
-        <p>Biểu tượng của sự thanh khiết.</p>
-        <h3>Sen xanh</h3>
-        <p>Tượng trưng cho trí tuệ.</p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Nelumbo_nucifera_white.jpg" width="300">`
-    );
+    document.getElementById("content").innerHTML = `
+        <h2>Các loại Hoa Sen</h2>
+
+        <div class="lotus-box">
+            <h3>🌸 Sen hồng</h3>
+            <img src="https://png.pngtree.com/thumb_back/fh260/background/20230901/pngtree-lotus-flower-is-a-pink-flower-that-is-surrounded-image_13145417.jpg" width="300">
+            <p>Sen hồng là loại phổ biến nhất tại Việt Nam, tượng trưng cho sự cao quý và tinh thần từ bi trong Phật giáo.</p>
+        </div>
+
+        <div class="lotus-box">
+            <h3>🤍 Sen trắng</h3>
+            <img src="https://salena.com.vn/wp-content/uploads/2022/05/hoa-sen-trang-10.jpg" width="300">
+            <p>Sen trắng biểu tượng cho sự thuần khiết, thanh thoát và tâm hồn trong sáng.</p>
+        </div>
+
+        <div class="lotus-box">
+            <h3>💛 Sen vàng</h3>
+            <img src="https://bizweb.dktcdn.net/100/449/470/files/y-nghia-cua-hoa-sen-vang.jpg?v=1722870566679" width="300">
+            <p>Sen vàng gắn với trí tuệ, ánh sáng và sự giác ngộ.</p>
+        </div>
+
+        <div class="lotus-box">
+            <h3>💙 Sen xanh</h3>
+            <img src="https://gom10.vn/uploads/news/8569b4cd0127d7774cc5533e08082b23.jpg" width="300">
+            <p>Sen xanh đại diện cho ý chí mạnh mẽ, trí tuệ và khát vọng vươn lên.</p>
+        </div>
+    `;
 }
 
 /* 4. Công dụng */
@@ -76,3 +98,8 @@ function yNghia() {
         <iframe width="328" height="583" src="https://www.youtube.com/embed/NZEbpNVH0nk" title="Đức Phật Thuyết Giảng Bài Học Về Hoa Sen Rất Hay🪷🪷🪷#shorts #duongvexuphat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
     );
 }
+document.addEventListener("DOMContentLoaded", function() {
+    const firstMenu = document.querySelector(".menu-item");
+    setActive(firstMenu);
+    trangChu();
+});

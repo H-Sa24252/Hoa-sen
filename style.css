@@ -11,14 +11,24 @@ header {
 }
 
 /* MENU */
-nav a {
-    margin: 10px;
+.sidebar {
+    width: 250px;
+    background-color: #FFE4EC;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column; /* Quan trọng: xếp dọc */
+    gap: 12px; /* khoảng cách giữa các mục */
+}
+.menu-item {
+    display: block;   /* mỗi mục chiếm 1 dòng */
     text-decoration: none;
+    padding: 12px;
+    background-color: white;
+    border-radius: 20px;
+    color: #C2185B;
     font-weight: bold;
-    padding: 8px 12px;
-    border-radius: 5px;
-    transition: 0.3s;
-    color: black;
+    text-align: center;
 }
 
 nav a:hover {
