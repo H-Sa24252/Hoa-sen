@@ -17,7 +17,7 @@ header {
     padding: 20px;
 
     display: flex;
-    flex-direction: column; /* Quan trọng: xếp dọc */
+    flex-direction: column; /* xếp dọc */
     gap: 12px; /* khoảng cách giữa các mục */
 }
 .menu-item {
