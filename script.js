@@ -25,7 +25,7 @@ function trangChu() {
 Trong Phật giáo, hoa sen còn mang ý nghĩa sâu sắc về sự giác ngộ, trí tuệ và giải thoát, thể hiện qua tư thế Đức Phật ngồi trên tòa sen trong nhiều tác phẩm nghệ thuật.</p>
        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Lotus_flower_%28978659%29.jpg/1280px-Lotus_flower_%28978659%29.jpg" 
      alt="Hoa sen" 
-     width="400">`
+     width="300">`
     );
 }
 
