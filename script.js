@@ -95,6 +95,7 @@ function yNghia() {
         Đức Phật ngồi trên tòa sen là biểu tượng của tri thức vẹn toàn, giác ngộ tối thượng.
         Hoa sen còn xuất hiện trong nhiều kinh điển, tranh tượng và lễ nghi Phật giáo, tượng trưng cho tâm hồn trong sáng và trí tuệ sáng rõ.
         Với người tu hành, sen không chỉ là hoa đẹp mà còn là phương pháp tu luyện tâm linh, hướng đến giải thoát vô lượng.</p>
+        <p>Dưới đây là bài học rất hay về hoa sen mà Đức Phật đã dạy:</p>
         <br>
         <iframe width="400" height="400" src="https://www.youtube.com/embed/NZEbpNVH0nk" title="Đức Phật Thuyết Giảng Bài Học Về Hoa Sen Rất Hay🪷🪷🪷#shorts #duongvexuphat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
     );
